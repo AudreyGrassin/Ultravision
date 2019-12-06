@@ -14,7 +14,7 @@ p, li, textarea, label, input, select {
 }
 
 
-h1 {
+.title {
   font-family: Poppins;
   font-size: 88px;
   font-weight: 900;
@@ -23,8 +23,21 @@ h1 {
   background-color: #fcce00
 }
 
-h2 {
-  /* Default font, size, and margins */
+.section-title {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff6b00
+}
+
+.sub-title {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--Ultravision-Black);
 }
 
 h3 {
