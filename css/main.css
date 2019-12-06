@@ -55,6 +55,26 @@ p, li, textarea, label, input, select {
   color: var(--Ultravision-Black);
 }
 
+.big-boite1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-boite2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boite-texte1 {
+  max-width: 50%;
+}
+
+.boite-texte2 {
+  max-width: 50%;
+}
+
+
+
 h3 {
   /* Default font, size, and margins */
 }
