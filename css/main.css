@@ -101,7 +101,7 @@ p, li, textarea, label, input, select {
 .big-boite3 {
   display: flex;
   justify-content: space-between;
-  background-color: #e02020;
+  background: linear-gradient(#e02020, #ffffff);
 }
 
 .big-boite3 img{
@@ -111,7 +111,7 @@ p, li, textarea, label, input, select {
 .big-boite4 {
   display: flex;
   justify-content: space-between;
-  background-color: #b620e0;
+  background: linear-gradient(#b620e0, #ffffff);
 }
 
 .big-boite4 img{
@@ -121,7 +121,7 @@ p, li, textarea, label, input, select {
 .big-boite5 {
   display: flex;
   justify-content: space-between;
-  background-color: #6236ff;
+  background: linear-gradient(#6236ff, #ffffff);
 }
 
 .big-boite5 img{
@@ -181,7 +181,7 @@ p, li, textarea, label, input, select {
   flex-basis: 0;
   flex-grow: 1;
   margin-bottom: 86px;
-  background-color: #fcce00;
+  background: linear-gradient(#fcce00, #ffffff );
 }
 .boite-image1 img{
   mix-blend-mode: multiply;
@@ -190,7 +190,7 @@ p, li, textarea, label, input, select {
 .boite-image2 {
   flex-basis: 0;
   flex-grow: 1;
-  background-color: #ff6b00;
+  background: linear-gradient(#ff6b00, #ffffff) ;
 }
 .boite-image2 img{
   mix-blend-mode: multiply;
@@ -276,6 +276,7 @@ p, li, textarea, label, input, select {
   text-align: center;
   color: #ffffff;
   padding-top: 64px ;
+  margin: 0px;
 }
 
 .big-boite6 {
