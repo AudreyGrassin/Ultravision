@@ -269,6 +269,62 @@ p, li, textarea, label, input, select {
   padding-left: 60px;
 }
 
+.titre-boites6 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 64px ;
+}
+
+.big-boite6 {
+  background-color: black;
+}
+
+.ligneimg1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.ligneimg2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.ligneimg3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.titre-boites7 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-row {
+  width: 49px;
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 h3 {
   /* Default font, size, and margins */
 }
