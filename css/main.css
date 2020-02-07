@@ -98,10 +98,42 @@ p, li, textarea, label, input, select {
   justify-content: space-between;
 }
 
+.big-boite3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e02020;
+}
+
+.big-boite3 img{
+  mix-blend-mode: multiply;
+}
+
+.big-boite4 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b620e0;
+}
+
+.big-boite4 img{
+  mix-blend-mode: multiply;
+}
+
+.big-boite5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6236ff;
+}
+
+.big-boite5 img{
+  mix-blend-mode: multiply;
+}
+
 .boite-texte1 {
-  max-width: 50%;
+  flex-basis: 0;
+  flex-grow: 1;
   padding-left: 48px;
-  padding-right:0px; 
+  padding-right: 32px; 
+  margin-bottom: 86px;
 }
 
 .button1 {
@@ -118,8 +150,9 @@ p, li, textarea, label, input, select {
 }
 
 .boite-texte2 {
-  max-width: 50%;
-  padding-left: 0px;
+  flex-basis: 0;
+  flex-grow: 1;
+  padding-left: 32px;
   padding-right:48px;
 }
 
@@ -145,6 +178,9 @@ p, li, textarea, label, input, select {
 }
 
 .boite-image1 {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-bottom: 86px;
   background-color: #fcce00;
 }
 .boite-image1 img{
@@ -152,6 +188,8 @@ p, li, textarea, label, input, select {
 }
 
 .boite-image2 {
+  flex-basis: 0;
+  flex-grow: 1;
   background-color: #ff6b00;
 }
 .boite-image2 img{
@@ -171,6 +209,11 @@ p, li, textarea, label, input, select {
   color: #ffffff;
 }
 
+.boite-image3 {
+  margin-top: 18px;
+  margin-bottom: 46px;
+}
+
 .button3part {
   font-family: Poppins;
   font-size: 20px;
@@ -180,6 +223,50 @@ p, li, textarea, label, input, select {
   border: solid 4px white;
   border-radius: 15px;
   padding: 7px 24px 7px 24px;
+}
+
+.boite-texte3 {
+  padding-left: 60px;
+}
+
+.boite-image4 {
+  margin-top: 18px;
+  margin-bottom: 46px;
+}
+
+.button4part {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#ffffff ;
+  border: solid 4px white;
+  border-radius: 15px;
+  padding: 7px 24px 7px 24px;
+}
+
+.boite-texte4 {
+  padding-left: 60px;
+}
+
+.boite-image5 {
+  margin-top: 18px;
+  margin-bottom: 46px;
+}
+
+.button5part {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#ffffff ;
+  border: solid 4px white;
+  border-radius: 15px;
+  padding: 7px 24px 7px 24px;
+}
+
+.boite-texte5 {
+  padding-left: 60px;
 }
 
 h3 {
