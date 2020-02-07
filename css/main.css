@@ -6,7 +6,8 @@
 */
 
 body {
-  /* Default font family and font color */
+  font-family: Poppins;
+
 }
 
 p, li, textarea, label, input, select {
@@ -84,6 +85,7 @@ p, li, textarea, label, input, select {
   font-size: 16px;
   text-align: justify;
   color: var(--Ultravision-Black);
+  margin: 0px;
 }
 
 .big-boite1 {
@@ -98,17 +100,53 @@ p, li, textarea, label, input, select {
 
 .boite-texte1 {
   max-width: 50%;
-  margin-inline-start: 48px;
-  margin-inline-end:0px;
+  padding-left: 48px;
+  padding-right:0px; 
+}
+
+.button1 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fcce00 ;
+  border: solid 4px #fcce00;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
 }
 
 .boite-texte2 {
   max-width: 50%;
-  margin-inline-start: 0px;
-  margin-inline-end:48px;
+  padding-left: 0px;
+  padding-right:48px;
 }
 
+.button2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6b00 ;
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
+}
 
+.title2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--Ultravision-Black);
+}
+
+.boite-image1 {
+  background-color: #fcce00;
+}
 
 h3 {
   /* Default font, size, and margins */
